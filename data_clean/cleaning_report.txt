@@ -1,0 +1,104 @@
+
+====================================================================================================
+1. CARREGAMENTO
+====================================================================================================
+  Fonte: https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-10-20/
+  ai_salary_majors.csv  :   285 linhas x 13 colunas
+  major_occupations.csv :  1505 linhas x 7 colunas
+  [OK]    cip4 e soc lidos como texto (se fossem inteiros, '0100' passava a 100).
+
+====================================================================================================
+2. VALIDACAO DOS FICHEIROS ORIGINAIS
+====================================================================================================
+  ai_salary_majors.csv (nivel do curso)
+  [OK]    285 cursos, cip4 unico e com 4 digitos.
+  [AVISO] median_salary_4yr: 8 valores em falta.
+          -> Na fonte, median_salary_4yr fica vazio quando TODAS as instituicoes desse curso tiveram
+             o valor suprimido por privacidade (College Scorecard). E um nulo legitimo: nao imputar,
+             excluir apenas dos graficos a 4 anos.
+  [OK]    broad_field <-> broad_field_short e 1:1 (37 areas).
+  [OK]    Percentil coerente com o ranking da exposicao (diferenca maxima 0.9 pontos).
+          -> As pequenas diferencas existem porque a fonte calculou o ranking antes de arredondar a
+             exposicao a 3 casas, o que cria alguns empates.
+  [OK]    Em nenhum curso o salario aos 4 anos e inferior ao inicial.
+  
+  major_occupations.csv (nivel curso-profissao)
+  [OK]    Todos os cip4 tem 4 digitos.
+  [OK]    Todos os soc seguem o formato NN-NNNN (463 codigos distintos).
+  [OK]    Nenhum par (cip4, soc) repetido.
+  [OK]    soc <-> occupation e 1:1 (o nome da profissao identifica-a sem ambiguidade).
+  [OK]    Os scores de exposicao sao constantes dentro de cada profissao.
+  field_of_study varia dentro do mesmo cip4 em 130 cursos (e o titulo do sub-programa, nivel CIP-6).
+          -> Por isso NAO o uso no merge: o nome do curso vem de ai_salary_majors.
+  
+  Cruzamento entre os dois ficheiros
+  [OK]    Os mesmos cursos aparecem nos dois ficheiros: o merge nao perde nem inventa linhas.
+  [OK]    n_occupations coincide com o numero real de linhas de cada curso.
+  [OK]    Exposicao do curso = media simples das suas profissoes (diferenca maxima 0.0007).
+          -> Confirma que NAO ha ponderacao por empregabilidade: uma profissao rara pesa o mesmo que
+             a mais comum. A discutir como limitacao no relatorio.
+
+====================================================================================================
+3. LIMPEZA E CONSTRUCAO DAS TABELAS
+====================================================================================================
+  [OK]    Colunas de exposicao renomeadas com prefixo occ_ (profissao) e field_ (curso).
+  [OK]    soc_group: 22 grupos SOC atribuidos a todas as profissoes.
+  [OK]    Colunas derivadas por curso: salary_growth_abs/ratio, has_4yr_salary, low_sample (<50 graduados), language_minus_image, field_ai_exposure_excl_postsec.
+  [OK]    Merge m:1 feito sem perder nem duplicar linhas: 1505 pares curso-profissao, 285 cursos, 463 profissoes.
+  [OK]    Tabelas finais: courses=285 linhas, occupations=463, merged=1505.
+
+====================================================================================================
+4. O QUE NAO FOI CORRIGIDO (e que deves ter em conta nos graficos)
+====================================================================================================
+  [AVISO] n_graduates muito assimetrico: mediana 1 358, maximo 429 074 (316x a mediana, 'Registered Nursing, Nursing Administrati'); 43 cursos sao outliers (IQR).
+          -> Numa escala linear quase todos os cursos ficam colados ao zero. Usa eixo log, ou
+             compara cursos por percentil. Somar n_graduates sobre 'merged' infla os cursos com mais
+             profissoes: soma sempre sobre 'courses'.
+          -> n_graduates conta so graduados com salario reportado e n_institutions so instituicoes
+             com valor nao suprimido (ver script da fonte), por isso nao sao totais reais.
+  [AVISO] 23 cursos com <50 graduados e 27 com uma unica instituicao.
+          -> Os salarios destes cursos assentam em poucos casos; marcados em 'low_sample'. Podes
+             filtra-los nos scatterplots ou desenha-os com menos opacidade.
+  [AVISO] 8 cursos sem salario a 4 anos (8 deles com low_sample).
+          -> Nulos de privacidade (ver 2.). Nos graficos de crescimento salarial estes cursos ficam
+             de fora - diz isso na legenda.
+  [AVISO] 9 das 37 areas tem <=2 cursos: Construction Trades, History, Precision Production, Library Science, Culinary & Personal Svc, Area & Ethnic Studies, Military Tech, Science Tech...
+          -> Medias/boxplots por area nestas categorias nao dizem nada sobre a 'area'. Funde-as ou
+             mostra o curso individual. 'Interdisciplinary' (familia CIP 30) e um saco misto.
+  
+  Escala da exposicao: z-scores (media 0, DP 1) calculados na fonte sobre todas as profissoes do AIOE. Aqui: min -2.67, max 1.53, 37% das profissoes abaixo de 0.
+          -> Valores negativos significam 'menos exposto que a media', nao 'sem exposicao'. A media
+             do dataset (~0.75) nao e 0 porque so entram profissoes ligadas a licenciaturas.
+  
+  Profissoes mais partilhadas entre cursos (numero de cursos que levam a cada uma):
+       46 cursos | exposicao +0.84 | Engineering Managers
+       43 cursos | exposicao +1.33 | Natural Sciences Managers
+       40 cursos | exposicao +1.35 | Engineering Teachers, Postsecondary
+       35 cursos | exposicao +0.96 | Managers, All Other
+       26 cursos | exposicao +1.19 | Secondary School Teachers, Except Special and Vocational Edu
+  Professores do ensino superior (SOC 25-1xxx): 35 profissoes, presentes em 216 dos 285 cursos.
+  Sem eles, a exposicao muda em media -0.07 (|max| 0.96); correlacao de ordem (Spearman) com a original: 0.98; 11 cursos ficam sem valor por so terem este tipo de profissao.
+          -> Se a correlacao for alta, o ranking dos cursos e robusto a estas profissoes; a coluna
+             field_ai_exposure_excl_postsec permite mostrar isso como analise de sensibilidade.
+  
+  Crescimento salarial (4 anos / inicial): mediana 1.45, intervalo 1.02 a 2.98.
+      2.98x | Practical Nursing, Vocational Nursing and Nursing Assis (inicial 10 084, 524 graduados)
+      2.42x | Allied Health and Medical Assisting Services (inicial 32 919, 964 graduados)
+      2.41x | Communication Disorders Sciences and Services (inicial 24 702, 4 117 graduados)
+          -> Rácios muito altos tendem a vir de salarios iniciais baixos (ex.: cursos com muitos
+             estudantes a tempo parcial). Verifica se o extremo tem low_sample antes de o destacar.
+  Salario inicial mais baixo: 10 084 USD (Practical Nursing, Vocational Nursing and Nursing ). Vem assim na fonte; nao o alterei.
+
+====================================================================================================
+5. FICHEIROS ESCRITOS
+====================================================================================================
+  data_clean\courses_clean.csv  (285 linhas, 19 colunas) - 1 linha por curso
+  data_clean\occupations_clean.csv  (463 linhas, 10 colunas) - 1 linha por profissao
+  data_clean\merged_clean.csv  (1505 linhas, 27 colunas) - 1 linha por par curso-profissao
+  
+  Para ler: pd.read_csv(ficheiro, dtype={'cip4': str, 'soc': str})  (cip4 e soc sao codigos).
+
+====================================================================================================
+RESUMO
+====================================================================================================
+  5 aviso(s), 0 erro(s). Os avisos descrevem limitacoes dos dados (sec. 4), nao falhas do script.

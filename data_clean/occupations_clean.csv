@@ -1,0 +1,464 @@
+soc,occupation,soc_group_code,soc_group,is_postsecondary_teacher,occ_ai_exposure,occ_ai_exposure_language,occ_ai_exposure_image,n_courses,n_broad_fields
+11-1011,Chief Executives,11,Management,False,1.334,1.309,1.31,7,2
+11-1021,General and Operations Managers,11,Management,False,0.575,0.678,0.232,8,3
+11-2011,Advertising and Promotions Managers,11,Management,False,1.294,1.217,1.615,2,2
+11-2021,Marketing Managers,11,Management,False,1.315,1.204,1.61,5,3
+11-2022,Sales Managers,11,Management,False,1.266,1.294,1.01,5,3
+11-3021,Computer and Information Systems Managers,11,Management,False,1.06,0.945,1.275,10,3
+11-3031,Financial Managers,11,Management,False,1.446,1.295,1.331,3,1
+11-3051,Industrial Production Managers,11,Management,False,0.509,0.354,0.655,5,4
+11-3061,Purchasing Managers,11,Management,False,1.423,1.393,1.298,1,1
+11-3071,"Transportation, Storage, and Distribution Managers",11,Management,False,0.891,0.905,0.773,4,3
+11-3111,Compensation and Benefits Managers,11,Management,False,1.298,1.467,0.559,3,1
+11-3121,Human Resources Managers,11,Management,False,1.32,1.359,0.971,4,3
+11-3131,Training and Development Managers,11,Management,False,1.284,1.337,1.2,6,4
+11-9013,"Farmers, Ranchers, and Other Agricultural Managers",11,Management,False,-0.144,-0.158,0.016,6,1
+11-9021,Construction Managers,11,Management,False,1.029,0.636,1.857,5,3
+11-9031,"Education Administrators, Preschool and Child Care Center/Program",11,Management,False,0.838,0.967,0.426,1,1
+11-9032,"Education Administrators, Elementary and Secondary School",11,Management,False,1.049,1.199,0.617,1,1
+11-9033,"Education Administrators, Postsecondary",11,Management,False,1.461,1.545,1.11,4,3
+11-9039,"Education Administrators, All Other",11,Management,False,0.354,0.628,-0.152,2,2
+11-9041,Engineering Managers,11,Management,False,0.837,0.647,1.326,46,5
+11-9051,Food Service Managers,11,Management,False,-0.121,0.061,-0.71,3,3
+11-9071,Gaming Managers,11,Management,False,0.83,0.719,0.731,1,1
+11-9081,Lodging Managers,11,Management,False,0.402,0.464,0.205,1,1
+11-9111,Medical and Health Services Managers,11,Management,False,1.26,1.315,0.852,8,4
+11-9121,Natural Sciences Managers,11,Management,False,1.328,1.241,1.313,43,9
+11-9131,Postmasters and Mail Superintendents,11,Management,False,0.823,0.866,0.471,1,1
+11-9141,"Property, Real Estate, and Community Association Managers",11,Management,False,1.215,1.215,1.054,2,2
+11-9151,Social and Community Service Managers,11,Management,False,1.156,1.225,0.79,7,3
+11-9161,Emergency Management Directors,11,Management,False,1.031,0.901,1.404,2,1
+11-9199,"Managers, All Other",11,Management,False,0.965,0.91,0.964,35,13
+13-1011,"Agents and Business Managers of Artists, Performers, and Athletes",13,Business and Financial Operations,False,1.069,1.248,0.43,3,3
+13-1021,"Purchasing Agents and Buyers, Farm Products",13,Business and Financial Operations,False,0.769,0.737,0.621,1,1
+13-1022,"Wholesale and Retail Buyers, Except Farm Products",13,Business and Financial Operations,False,0.819,0.791,0.669,4,3
+13-1023,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",13,Business and Financial Operations,False,1.509,1.496,1.058,2,1
+13-1031,"Claims Adjusters, Examiners, and Investigators",13,Business and Financial Operations,False,1.274,1.106,1.286,2,2
+13-1032,"Insurance Appraisers, Auto Damage",13,Business and Financial Operations,False,0.663,0.582,0.697,2,2
+13-1041,"Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",13,Business and Financial Operations,False,0.698,0.572,0.825,6,4
+13-1051,Cost Estimators,13,Business and Financial Operations,False,1.368,1.134,1.478,7,3
+13-1071,"Employment, Recruitment, and Placement Specialists",13,Business and Financial Operations,False,1.36,1.557,0.571,3,2
+13-1075,Labor Relations Specialists,13,Business and Financial Operations,False,1.335,1.431,0.944,1,1
+13-1081,Logisticians,13,Business and Financial Operations,False,1.297,1.081,1.569,1,1
+13-1111,Management Analysts,13,Business and Financial Operations,False,1.432,1.548,0.966,6,3
+13-1121,Meeting and Convention Planners,13,Business and Financial Operations,False,0.374,0.513,0.199,2,2
+13-1131,Fundraisers,13,Business and Financial Operations,False,1.243,1.405,0.718,5,2
+13-1141,"Compensation, Benefits, and Job Analysis Specialists",13,Business and Financial Operations,False,1.441,1.362,1.221,4,1
+13-1151,Training and Development Specialists,13,Business and Financial Operations,False,1.198,1.323,0.948,5,4
+13-1161,Market Research Analysts and Marketing Specialists,13,Business and Financial Operations,False,1.427,1.356,1.396,5,3
+13-1199,"Business Operations Specialists, All Other",13,Business and Financial Operations,False,1.048,0.925,1.221,4,1
+13-2011,Accountants and Auditors,13,Business and Financial Operations,False,1.482,1.214,1.572,2,2
+13-2031,Budget Analysts,13,Business and Financial Operations,False,1.503,1.3,1.326,2,1
+13-2041,Credit Analysts,13,Business and Financial Operations,False,1.345,1.092,1.176,2,1
+13-2051,Financial Analysts,13,Business and Financial Operations,False,1.381,1.273,1.164,3,2
+13-2052,Personal Financial Advisors,13,Business and Financial Operations,False,1.401,1.396,0.815,2,2
+13-2053,Insurance Underwriters,13,Business and Financial Operations,False,1.327,1.262,1.229,4,1
+13-2061,Financial Examiners,13,Business and Financial Operations,False,1.526,1.358,1.453,3,2
+13-2071,Loan Counselors,13,Business and Financial Operations,False,1.385,1.355,0.932,1,1
+13-2072,Loan Officers,13,Business and Financial Operations,False,1.386,1.477,0.33,1,1
+13-2081,"Tax Examiners, Collectors, and Revenue Agents",13,Business and Financial Operations,False,1.367,1.253,1.043,1,1
+13-2082,Tax Preparers,13,Business and Financial Operations,False,1.294,1.144,1.04,1,1
+13-2099,"Financial Specialists, All Other",13,Business and Financial Operations,False,1.361,1.253,1.221,3,2
+15-2011,Actuaries,15,Computer and Mathematical,False,1.516,1.2,1.637,4,2
+15-2021,Mathematicians,15,Computer and Mathematical,False,1.472,1.166,1.905,7,4
+15-2031,Operations Research Analysts,15,Computer and Mathematical,False,1.4,1.234,1.535,2,2
+15-2041,Statisticians,15,Computer and Mathematical,False,1.383,1.243,1.335,10,6
+17-1011,"Architects, Except Landscape and Naval",17,Architecture and Engineering,False,1.047,0.61,2.389,3,1
+17-1012,Landscape Architects,17,Architecture and Engineering,False,1.034,0.836,1.78,2,1
+17-1021,Cartographers and Photogrammetrists,17,Architecture and Engineering,False,0.817,0.472,1.699,5,5
+17-1022,Surveyors,17,Architecture and Engineering,False,0.146,-0.121,0.711,2,2
+17-2011,Aerospace Engineers,17,Architecture and Engineering,False,1.339,1.117,1.711,3,1
+17-2021,Agricultural Engineers,17,Architecture and Engineering,False,0.941,0.69,1.422,1,1
+17-2031,Biomedical Engineers,17,Architecture and Engineering,False,0.987,0.734,1.652,3,1
+17-2041,Chemical Engineers,17,Architecture and Engineering,False,1.341,0.906,2.256,5,1
+17-2051,Civil Engineers,17,Architecture and Engineering,False,1.283,0.927,1.977,2,1
+17-2061,Computer Hardware Engineers,17,Architecture and Engineering,False,1.142,0.977,1.56,2,1
+17-2071,Electrical Engineers,17,Architecture and Engineering,False,1.127,0.901,1.51,2,1
+17-2072,"Electronics Engineers, Except Computer",17,Architecture and Engineering,False,0.665,0.457,1.105,1,1
+17-2081,Environmental Engineers,17,Architecture and Engineering,False,1.344,1.044,1.89,2,1
+17-2111,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",17,Architecture and Engineering,False,0.995,0.764,1.575,2,1
+17-2112,Industrial Engineers,17,Architecture and Engineering,False,1.138,0.905,1.485,4,2
+17-2121,Marine Engineers and Naval Architects,17,Architecture and Engineering,False,0.547,0.343,1.186,1,1
+17-2131,Materials Engineers,17,Architecture and Engineering,False,1.037,0.78,1.578,5,1
+17-2141,Mechanical Engineers,17,Architecture and Engineering,False,1.005,0.678,1.628,3,1
+17-2151,"Mining and Geological Engineers, Including Mining Safety Engineers",17,Architecture and Engineering,False,1.347,1.031,1.985,3,1
+17-2161,Nuclear Engineers,17,Architecture and Engineering,False,1.303,1.073,1.557,1,1
+17-2171,Petroleum Engineers,17,Architecture and Engineering,False,1.248,1.033,1.576,2,1
+17-2199,"Engineers, All Other",17,Architecture and Engineering,False,0.788,0.581,1.213,23,3
+17-3011,Architectural and Civil Drafters,17,Architecture and Engineering,False,0.923,0.554,1.902,3,2
+17-3012,Electrical and Electronics Drafters,17,Architecture and Engineering,False,0.91,0.676,1.559,3,1
+17-3013,Mechanical Drafters,17,Architecture and Engineering,False,0.841,0.382,1.986,2,1
+17-3021,Aerospace Engineering and Operations Technicians,17,Architecture and Engineering,False,0.391,0.201,0.699,6,4
+17-3022,Civil Engineering Technicians,17,Architecture and Engineering,False,0.932,0.553,1.676,5,2
+17-3023,Electrical and Electronic Engineering Technicians,17,Architecture and Engineering,False,0.352,0.078,0.998,5,1
+17-3024,Electro-Mechanical Technicians,17,Architecture and Engineering,False,-0.304,-0.568,0.34,4,1
+17-3025,Environmental Engineering Technicians,17,Architecture and Engineering,False,0.044,-0.124,0.469,3,2
+17-3026,Industrial Engineering Technicians,17,Architecture and Engineering,False,0.611,0.347,1.199,4,1
+17-3027,Mechanical Engineering Technicians,17,Architecture and Engineering,False,-0.119,-0.274,0.256,2,1
+17-3029,"Engineering Technicians, Except Drafters, All Other",17,Architecture and Engineering,False,0.194,-0.079,0.699,14,2
+17-3031,Surveying and Mapping Technicians,17,Architecture and Engineering,False,0.085,-0.29,0.962,2,2
+19-1011,Animal Scientists,19,"Life, Physical, and Social Science",False,1.041,0.972,1.12,5,1
+19-1012,Food Scientists and Technologists,19,"Life, Physical, and Social Science",False,0.794,0.573,1.129,4,2
+19-1013,Soil and Plant Scientists,19,"Life, Physical, and Social Science",False,0.632,0.609,0.804,6,2
+19-1021,Biochemists and Biophysicists,19,"Life, Physical, and Social Science",False,0.906,0.794,1.209,4,2
+19-1022,Microbiologists,19,"Life, Physical, and Social Science",False,0.696,0.474,1.22,4,2
+19-1023,Zoologists and Wildlife Biologists,19,"Life, Physical, and Social Science",False,0.318,0.327,0.315,4,3
+19-1029,"Biological Scientists, All Other",19,"Life, Physical, and Social Science",False,1.01,0.883,1.285,19,4
+19-1031,Conservation Scientists,19,"Life, Physical, and Social Science",False,0.069,0.074,0.244,8,4
+19-1032,Foresters,19,"Life, Physical, and Social Science",False,-0.184,-0.196,0.2,3,1
+19-1041,Epidemiologists,19,"Life, Physical, and Social Science",False,1.436,1.284,1.653,4,2
+19-1042,"Medical Scientists, Except Epidemiologists",19,"Life, Physical, and Social Science",False,1.28,1.167,1.327,16,5
+19-2011,Astronomers,19,"Life, Physical, and Social Science",False,1.374,1.035,2.128,1,1
+19-2012,Physicists,19,"Life, Physical, and Social Science",False,1.346,1.097,1.791,4,3
+19-2021,Atmospheric and Space Scientists,19,"Life, Physical, and Social Science",False,1.374,1.259,1.362,1,1
+19-2031,Chemists,19,"Life, Physical, and Social Science",False,0.501,0.327,0.805,3,2
+19-2032,Materials Scientists,19,"Life, Physical, and Social Science",False,1.033,0.786,1.593,2,2
+19-2041,"Environmental Scientists and Specialists, Including Health",19,"Life, Physical, and Social Science",False,1.014,0.87,1.229,6,5
+19-2042,"Geoscientists, Except Hydrologists and Geographers",19,"Life, Physical, and Social Science",False,0.714,0.567,1.057,2,2
+19-2043,Hydrologists,19,"Life, Physical, and Social Science",False,0.641,0.555,0.898,1,1
+19-2099,"Physical Scientists, All Other",19,"Life, Physical, and Social Science",False,1.14,0.913,1.584,3,2
+19-3011,Economists,19,"Life, Physical, and Social Science",False,1.404,1.33,1.299,7,6
+19-3022,Survey Researchers,19,"Life, Physical, and Social Science",False,1.427,1.279,1.287,7,4
+19-3032,Industrial-Organizational Psychologists,19,"Life, Physical, and Social Science",False,1.402,1.427,1.257,2,1
+19-3039,"Psychologists, All Other",19,"Life, Physical, and Social Science",False,1.39,1.33,1.297,7,4
+19-3041,Sociologists,19,"Life, Physical, and Social Science",False,1.411,1.747,0.513,6,2
+19-3051,Urban and Regional Planners,19,"Life, Physical, and Social Science",False,1.228,1.075,1.642,6,4
+19-3091,Anthropologists and Archeologists,19,"Life, Physical, and Social Science",False,0.697,0.739,0.861,6,3
+19-3092,Geographers,19,"Life, Physical, and Social Science",False,1.436,1.363,1.497,3,3
+19-3093,Historians,19,"Life, Physical, and Social Science",False,1.099,1.491,0.26,6,4
+19-3094,Political Scientists,19,"Life, Physical, and Social Science",False,1.419,1.687,0.636,4,3
+19-3099,"Social Scientists and Related Workers, All Other",19,"Life, Physical, and Social Science",False,1.328,1.085,1.903,16,8
+19-4021,Biological Technicians,19,"Life, Physical, and Social Science",False,0.301,0.133,0.615,9,1
+19-4031,Chemical Technicians,19,"Life, Physical, and Social Science",False,0.063,-0.094,0.431,1,1
+19-4051,Nuclear Technicians,19,"Life, Physical, and Social Science",False,0.17,-0.091,0.514,2,2
+19-4061,Social Science Research Assistants,19,"Life, Physical, and Social Science",False,1.205,1.126,1.262,9,5
+19-4092,Forensic Science Technicians,19,"Life, Physical, and Social Science",False,0.24,0.01,0.928,5,4
+19-4099,"Life, Physical, and Social Science Technicians, All Other",19,"Life, Physical, and Social Science",False,0.45,0.176,1.003,7,4
+21-1011,Substance Abuse and Behavioral Disorder Counselors,21,Community and Social Service,False,1.031,1.204,0.482,1,1
+21-1012,"Educational, Vocational, and School Counselors",21,Community and Social Service,False,0.974,1.196,0.429,2,2
+21-1013,Marriage and Family Therapists,21,Community and Social Service,False,1.367,1.473,0.857,2,2
+21-1014,Mental Health Counselors,21,Community and Social Service,False,1.342,1.537,0.649,2,2
+21-1015,Rehabilitation Counselors,21,Community and Social Service,False,0.503,0.835,-0.282,1,1
+21-1021,"Child, Family, and School Social Workers",21,Community and Social Service,False,0.776,0.957,0.198,4,4
+21-1022,Medical and Public Health Social Workers,21,Community and Social Service,False,0.934,1.094,0.414,2,2
+21-1023,Mental Health and Substance Abuse Social Workers,21,Community and Social Service,False,1.119,1.253,0.555,2,2
+21-1091,Health Educators,21,Community and Social Service,False,0.692,0.968,0.083,4,2
+21-1092,Probation Officers and Correctional Treatment Specialists,21,Community and Social Service,False,0.527,0.897,-0.456,1,1
+21-1093,Social and Human Service Assistants,21,Community and Social Service,False,0.465,0.557,0.072,2,2
+21-1094,Community Health Workers,21,Community and Social Service,False,0.037,0.135,-0.167,5,2
+21-2011,Clergy,21,Community and Social Service,False,1.283,1.47,0.584,3,2
+21-2021,"Directors, Religious Activities and Education",21,Community and Social Service,False,1.211,1.355,0.76,8,3
+23-1011,Lawyers,23,Legal,False,1.329,1.454,1.036,1,1
+23-1022,"Arbitrators, Mediators, and Conciliators",23,Legal,False,1.432,1.647,0.796,1,1
+23-2011,Paralegals and Legal Assistants,23,Legal,False,1.292,1.333,1.016,2,1
+23-2093,"Title Examiners, Abstractors, and Searchers",23,Legal,False,1.28,1.384,0.62,1,1
+25-1011,"Business Teachers, Postsecondary",25,Educational Instruction and Library,True,1.349,1.618,0.377,16,3
+25-1021,"Computer Science Teachers, Postsecondary",25,Educational Instruction and Library,True,1.278,1.39,0.879,12,4
+25-1022,"Mathematical Science Teachers, Postsecondary",25,Educational Instruction and Library,True,1.339,1.407,0.619,9,6
+25-1031,"Architecture Teachers, Postsecondary",25,Educational Instruction and Library,True,1.222,1.246,1.323,9,3
+25-1032,"Engineering Teachers, Postsecondary",25,Educational Instruction and Library,True,1.351,1.337,1.163,40,3
+25-1041,"Agricultural Sciences Teachers, Postsecondary",25,Educational Instruction and Library,True,0.755,1.154,-0.29,13,2
+25-1042,"Biological Science Teachers, Postsecondary",25,Educational Instruction and Library,True,1.228,1.493,0.521,18,3
+25-1043,"Forestry and Conservation Science Teachers, Postsecondary",25,Educational Instruction and Library,True,1.26,1.563,0.435,9,4
+25-1051,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",25,Educational Instruction and Library,True,1.306,1.522,0.553,4,2
+25-1052,"Chemistry Teachers, Postsecondary",25,Educational Instruction and Library,True,1.334,1.45,0.813,5,3
+25-1053,"Environmental Science Teachers, Postsecondary",25,Educational Instruction and Library,True,1.348,1.603,0.62,5,5
+25-1054,"Physics Teachers, Postsecondary",25,Educational Instruction and Library,True,1.044,1.24,0.334,5,3
+25-1061,"Anthropology and Archeology Teachers, Postsecondary",25,Educational Instruction and Library,True,1.322,1.534,0.781,4,2
+25-1062,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",25,Educational Instruction and Library,True,1.309,1.669,0.452,8,4
+25-1063,"Economics Teachers, Postsecondary",25,Educational Instruction and Library,True,1.319,1.462,0.55,6,5
+25-1064,"Geography Teachers, Postsecondary",25,Educational Instruction and Library,True,1.319,1.629,0.503,3,3
+25-1065,"Political Science Teachers, Postsecondary",25,Educational Instruction and Library,True,1.368,1.77,0.323,3,2
+25-1066,"Psychology Teachers, Postsecondary",25,Educational Instruction and Library,True,1.334,1.716,0.307,8,4
+25-1067,"Sociology Teachers, Postsecondary",25,Educational Instruction and Library,True,1.349,1.77,0.255,3,1
+25-1071,"Health Specialties Teachers, Postsecondary",25,Educational Instruction and Library,True,0.925,1.226,0.064,23,7
+25-1072,"Nursing Instructors and Teachers, Postsecondary",25,Educational Instruction and Library,True,0.517,0.744,-0.125,2,1
+25-1081,"Education Teachers, Postsecondary",25,Educational Instruction and Library,True,1.193,1.624,0.041,11,3
+25-1082,"Library Science Teachers, Postsecondary",25,Educational Instruction and Library,True,1.386,1.626,0.667,1,1
+25-1111,"Criminal Justice and Law Enforcement Teachers, Postsecondary",25,Educational Instruction and Library,True,1.39,1.754,0.38,5,3
+25-1112,"Law Teachers, Postsecondary",25,Educational Instruction and Library,True,1.356,1.802,0.266,2,2
+25-1113,"Social Work Teachers, Postsecondary",25,Educational Instruction and Library,True,1.347,1.739,0.351,3,3
+25-1121,"Art, Drama, and Music Teachers, Postsecondary",25,Educational Instruction and Library,True,0.758,1.007,0.533,11,2
+25-1122,"Communications Teachers, Postsecondary",25,Educational Instruction and Library,True,1.347,1.702,0.31,7,3
+25-1123,"English Language and Literature Teachers, Postsecondary",25,Educational Instruction and Library,True,1.418,1.857,0.375,6,3
+25-1124,"Foreign Language and Literature Teachers, Postsecondary",25,Educational Instruction and Library,True,1.334,1.814,-0.082,9,2
+25-1125,"History Teachers, Postsecondary",25,Educational Instruction and Library,True,1.437,1.813,0.481,4,4
+25-1126,"Philosophy and Religion Teachers, Postsecondary",25,Educational Instruction and Library,True,1.364,1.8,0.291,10,3
+25-1192,"Home Economics Teachers, Postsecondary",25,Educational Instruction and Library,True,1.212,1.468,0.614,9,3
+25-1193,"Recreation and Fitness Studies Teachers, Postsecondary",25,Educational Instruction and Library,True,1.165,1.429,0.464,3,2
+25-1194,"Vocational Education Teachers, Postsecondary",25,Educational Instruction and Library,True,0.162,0.39,-0.357,5,4
+25-2011,"Preschool Teachers, Except Special Education",25,Educational Instruction and Library,False,0.031,0.322,-0.427,4,2
+25-2012,"Kindergarten Teachers, Except Special Education",25,Educational Instruction and Library,False,0.364,0.653,-0.334,3,1
+25-2021,"Elementary School Teachers, Except Special Education",25,Educational Instruction and Library,False,0.887,1.017,0.571,5,2
+25-2022,"Middle School Teachers, Except Special and Vocational Education",25,Educational Instruction and Library,False,1.286,1.284,1.01,5,2
+25-2023,"Vocational Education Teachers, Middle School",25,Educational Instruction and Library,False,0.52,0.647,0.134,1,1
+25-2031,"Secondary School Teachers, Except Special and Vocational Education",25,Educational Instruction and Library,False,1.191,1.249,0.934,26,11
+25-2032,"Vocational Education Teachers, Secondary School",25,Educational Instruction and Library,False,0.373,0.422,0.189,1,1
+25-2051,"Special Education Teachers, Preschool",25,Educational Instruction and Library,False,0.375,0.655,-0.304,1,1
+25-2059,"Special Education Teachers, All Other",25,Educational Instruction and Library,False,-0.663,-0.236,-1.426,1,1
+25-3011,"Adult Literacy, Remedial Education, and GED Teachers and Instructors",25,Educational Instruction and Library,False,1.349,1.44,0.803,3,1
+25-3021,Self-Enrichment Education Teachers,25,Educational Instruction and Library,False,0.526,0.825,-0.041,2,2
+25-3099,"Teachers and Instructors, All Other",25,Educational Instruction and Library,False,1.325,1.486,0.531,4,1
+25-4011,Archivists,25,Educational Instruction and Library,False,0.677,0.693,0.872,4,4
+25-4012,Curators,25,Educational Instruction and Library,False,0.737,0.656,1.287,2,2
+25-4013,Museum Technicians and Conservators,25,Educational Instruction and Library,False,-0.091,-0.111,0.228,2,2
+25-9021,Farm and Home Management Advisors,25,Educational Instruction and Library,False,0.86,0.784,0.996,13,3
+25-9031,Instructional Coordinators,25,Educational Instruction and Library,False,1.302,1.324,1.276,2,1
+27-1011,Art Directors,27,"Arts, Design, Entertainment, Sports, and Media",False,1.023,0.727,2.249,3,1
+27-1012,Craft Artists,27,"Arts, Design, Entertainment, Sports, and Media",False,-0.93,-0.917,-0.234,3,1
+27-1013,"Fine Artists, Including Painters, Sculptors, and Illustrators",27,"Arts, Design, Entertainment, Sports, and Media",False,-0.569,-0.698,0.915,3,2
+27-1014,Multi-Media Artists and Animators,27,"Arts, Design, Entertainment, Sports, and Media",False,0.706,0.432,1.845,5,3
+27-1021,Commercial and Industrial Designers,27,"Arts, Design, Entertainment, Sports, and Media",False,0.867,0.56,1.973,3,2
+27-1022,Fashion Designers,27,"Arts, Design, Entertainment, Sports, and Media",False,0.58,0.508,1.301,3,2
+27-1024,Graphic Designers,27,"Arts, Design, Entertainment, Sports, and Media",False,0.716,0.527,1.917,3,2
+27-1025,Interior Designers,27,"Arts, Design, Entertainment, Sports, and Media",False,1.122,0.822,2.421,5,3
+27-1026,Merchandise Displayers and Window Trimmers,27,"Arts, Design, Entertainment, Sports, and Media",False,-1.001,-0.735,-0.866,1,1
+27-1027,Set and Exhibit Designers,27,"Arts, Design, Entertainment, Sports, and Media",False,-0.052,-0.16,0.751,2,1
+27-2011,Actors,27,"Arts, Design, Entertainment, Sports, and Media",False,0.159,0.578,-0.413,1,1
+27-2012,Producers and Directors,27,"Arts, Design, Entertainment, Sports, and Media",False,0.939,0.86,1.206,4,2
+27-2021,Athletes and Sports Competitors,27,"Arts, Design, Entertainment, Sports, and Media",False,-1.814,-1.29,-2.461,1,1
+27-2022,Coaches and Scouts,27,"Arts, Design, Entertainment, Sports, and Media",False,0.117,0.319,0.073,3,3
+27-2031,Dancers,27,"Arts, Design, Entertainment, Sports, and Media",False,-2.67,-1.793,-3.655,2,1
+27-2032,Choreographers,27,"Arts, Design, Entertainment, Sports, and Media",False,-1.576,-0.886,-2.267,2,1
+27-2041,Music Directors and Composers,27,"Arts, Design, Entertainment, Sports, and Media",False,0.883,1.032,0.018,4,2
+27-2042,Musicians and Singers,27,"Arts, Design, Entertainment, Sports, and Media",False,-0.004,0.29,-1.082,2,1
+27-3011,Radio and Television Announcers,27,"Arts, Design, Entertainment, Sports, and Media",False,0.849,1.124,0.057,4,1
+27-3031,Public Relations Specialists,27,"Arts, Design, Entertainment, Sports, and Media",False,1.285,1.518,0.691,4,3
+27-3041,Editors,27,"Arts, Design, Entertainment, Sports, and Media",False,1.128,1.191,1.229,8,3
+27-3042,Technical Writers,27,"Arts, Design, Entertainment, Sports, and Media",False,1.184,1.317,1.244,4,4
+27-3043,Writers and Authors,27,"Arts, Design, Entertainment, Sports, and Media",False,0.988,1.17,1.17,8,5
+27-3091,Interpreters and Translators,27,"Arts, Design, Entertainment, Sports, and Media",False,1.111,1.352,-0.063,11,4
+27-4011,Audio and Video Equipment Technicians,27,"Arts, Design, Entertainment, Sports, and Media",False,-0.012,-0.12,0.223,2,2
+27-4012,Broadcast Technicians,27,"Arts, Design, Entertainment, Sports, and Media",False,0.122,-0.111,0.576,2,1
+27-4014,Sound Engineering Technicians,27,"Arts, Design, Entertainment, Sports, and Media",False,0.472,0.338,0.453,4,3
+27-4021,Photographers,27,"Arts, Design, Entertainment, Sports, and Media",False,-0.168,-0.382,0.929,5,2
+27-4031,"Camera Operators, Television, Video, and Motion Picture",27,"Arts, Design, Entertainment, Sports, and Media",False,-0.447,-0.629,0.376,2,2
+27-4032,Film and Video Editors,27,"Arts, Design, Entertainment, Sports, and Media",False,0.986,0.657,1.97,5,3
+29-1031,Dietitians and Nutritionists,29,Healthcare Practitioners and Technical,False,1.343,1.364,1.184,3,3
+29-1051,Pharmacists,29,Healthcare Practitioners and Technical,False,0.606,0.571,0.478,1,1
+29-1071,Physician Assistants,29,Healthcare Practitioners and Technical,False,0.106,0.04,0.054,1,1
+29-1081,Podiatrists,29,Healthcare Practitioners and Technical,False,0.628,0.554,0.652,1,1
+29-1122,Occupational Therapists,29,Healthcare Practitioners and Technical,False,0.115,0.266,-0.108,1,1
+29-1123,Physical Therapists,29,Healthcare Practitioners and Technical,False,-0.358,-0.059,-0.879,1,1
+29-1124,Radiation Therapists,29,Healthcare Practitioners and Technical,False,-0.219,-0.316,-0.115,1,1
+29-1125,Recreational Therapists,29,Healthcare Practitioners and Technical,False,0.219,0.401,-0.238,1,1
+29-1126,Respiratory Therapists,29,Healthcare Practitioners and Technical,False,-0.188,-0.199,-0.271,1,1
+29-1127,Speech-Language Pathologists,29,Healthcare Practitioners and Technical,False,1.146,1.343,0.229,1,1
+29-1128,Exercise Physiologists,29,Healthcare Practitioners and Technical,False,-0.033,0.307,-0.81,3,3
+29-1131,Veterinarians,29,Healthcare Practitioners and Technical,False,-0.075,-0.084,-0.138,1,1
+29-1141,Registered Nurses,29,Healthcare Practitioners and Technical,False,0.229,0.272,-0.048,1,1
+29-1151,Nurse Anesthetists,29,Healthcare Practitioners and Technical,False,0.241,0.134,0.239,1,1
+29-1161,Nurse Midwives,29,Healthcare Practitioners and Technical,False,0.197,0.305,-0.124,1,1
+29-1171,Nurse Practitioners,29,Healthcare Practitioners and Technical,False,0.19,0.302,-0.278,1,1
+29-1181,Audiologists,29,Healthcare Practitioners and Technical,False,0.633,0.696,0.004,1,1
+29-2011,Medical and Clinical Laboratory Technologists,29,Healthcare Practitioners and Technical,False,0.282,-0.042,0.903,2,2
+29-2012,Medical and Clinical Laboratory Technicians,29,Healthcare Practitioners and Technical,False,-0.127,-0.283,0.13,2,1
+29-2031,Cardiovascular Technologists and Technicians,29,Healthcare Practitioners and Technical,False,-0.091,-0.131,-0.206,1,1
+29-2032,Diagnostic Medical Sonographers,29,Healthcare Practitioners and Technical,False,-0.264,-0.274,-0.205,1,1
+29-2033,Nuclear Medicine Technologists,29,Healthcare Practitioners and Technical,False,0.086,-0.023,0.256,1,1
+29-2034,Radiologic Technologists and Technicians,29,Healthcare Practitioners and Technical,False,-0.556,-0.405,-0.795,1,1
+29-2035,Magnetic Resonance Imaging Technologists,29,Healthcare Practitioners and Technical,False,-0.073,-0.137,-0.035,1,1
+29-2051,Dietetic Technicians,29,Healthcare Practitioners and Technical,False,-0.126,-0.128,-0.143,3,3
+29-2052,Pharmacy Technicians,29,Healthcare Practitioners and Technical,False,0.007,-0.023,-0.143,1,1
+29-2053,Psychiatric Technicians,29,Healthcare Practitioners and Technical,False,-0.22,-0.001,-0.665,1,1
+29-2055,Surgical Technologists,29,Healthcare Practitioners and Technical,False,-0.483,-0.542,-0.44,3,1
+29-2056,Veterinary Technologists and Technicians,29,Healthcare Practitioners and Technical,False,-0.362,-0.282,-0.674,1,1
+29-2061,Licensed Practical and Licensed Vocational Nurses,29,Healthcare Practitioners and Technical,False,-0.514,-0.298,-1.111,1,1
+29-2091,Orthotists and Prosthetists,29,Healthcare Practitioners and Technical,False,0.067,0.126,0.137,1,1
+29-2092,Hearing Aid Specialists,29,Healthcare Practitioners and Technical,False,0.565,0.458,0.418,1,1
+29-2099,"Health Technologists and Technicians, All Other",29,Healthcare Practitioners and Technical,False,-0.284,-0.281,-0.35,3,1
+29-9091,Athletic Trainers,29,Healthcare Practitioners and Technical,False,-0.331,-0.095,-0.685,2,2
+29-9092,Genetic Counselors,29,Healthcare Practitioners and Technical,False,1.528,1.478,1.347,3,2
+29-9099,"Healthcare Practitioners and Technical Workers, All Other",29,Healthcare Practitioners and Technical,False,0.23,0.279,-0.135,3,1
+31-2011,Occupational Therapist Assistants,31,Healthcare Support,False,-0.315,-0.075,-0.762,1,1
+31-2021,Physical Therapist Assistants,31,Healthcare Support,False,-0.531,-0.247,-1.016,1,1
+31-9091,Dental Assistants,31,Healthcare Support,False,-0.527,-0.346,-0.961,1,1
+31-9092,Medical Assistants,31,Healthcare Support,False,0.15,0.236,-0.257,2,1
+31-9093,Medical Equipment Preparers,31,Healthcare Support,False,-0.731,-0.776,-0.594,1,1
+31-9094,Medical Transcriptionists,31,Healthcare Support,False,1.063,1.196,0.063,1,1
+31-9096,Veterinary Assistants and Laboratory Animal Caretakers,31,Healthcare Support,False,-0.774,-0.59,-1.299,1,1
+31-9097,Phlebotomists,31,Healthcare Support,False,-0.278,-0.253,-0.328,1,1
+31-9099,"Healthcare Support Workers, All Other",31,Healthcare Support,False,0.166,0.252,-0.225,2,1
+33-1011,First-Line Supervisors/Managers of Correctional Officers,33,Protective Service,False,-0.558,-0.361,-0.886,1,1
+33-1012,First-Line Supervisors/Managers of Police and Detectives,33,Protective Service,False,-0.192,-0.196,-0.144,5,3
+33-1021,First-Line Supervisors/Managers of Fire Fighting and Prevention Workers,33,Protective Service,False,-0.593,-0.636,-0.245,2,2
+33-2011,Fire Fighters,33,Protective Service,False,-1.32,-1.287,-1.017,2,2
+33-2021,Fire Inspectors and Investigators,33,Protective Service,False,0.063,-0.152,0.794,1,1
+33-2022,Forest Fire Inspectors and Prevention Specialists,33,Protective Service,False,-0.214,-0.342,0.281,2,2
+33-3011,Bailiffs,33,Protective Service,False,-0.51,-0.171,-1.651,1,1
+33-3012,Correctional Officers and Jailers,33,Protective Service,False,-0.888,-0.669,-1.35,1,1
+33-3021,Detectives and Criminal Investigators,33,Protective Service,False,0.226,0.151,0.408,4,3
+33-3031,Fish and Game Wardens,33,Protective Service,False,-0.459,-0.506,-0.107,1,1
+33-3051,Police and Sheriff's Patrol Officers,33,Protective Service,False,-0.668,-0.64,-0.621,3,2
+33-3052,Transit and Railroad Police,33,Protective Service,False,-0.821,-0.745,-0.688,1,1
+33-9021,Private Detectives and Investigators,33,Protective Service,False,0.748,0.615,0.933,2,1
+33-9031,Gaming Surveillance Officers and Gaming Investigators,33,Protective Service,False,0.728,0.433,1.111,1,1
+33-9032,Security Guards,33,Protective Service,False,-0.391,-0.423,-0.338,1,1
+33-9092,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",33,Protective Service,False,-0.472,-0.316,-0.835,1,1
+35-1011,Chefs and Head Cooks,35,Food Preparation and Serving,False,-0.268,-0.172,-0.453,1,1
+35-1012,First-Line Supervisors/Managers of Food Preparation and Serving Workers,35,Food Preparation and Serving,False,-0.258,-0.15,-0.516,2,2
+35-2012,"Cooks, Institution and Cafeteria",35,Food Preparation and Serving,False,-0.636,-0.559,-0.772,2,2
+35-2013,"Cooks, Private Household",35,Food Preparation and Serving,False,-0.787,-0.639,-0.749,1,1
+35-2014,"Cooks, Restaurant",35,Food Preparation and Serving,False,-0.742,-0.759,-0.528,1,1
+35-3011,Bartenders,35,Food Preparation and Serving,False,-0.616,-0.411,-1.073,1,1
+37-1011,First-Line Supervisors/Managers of Housekeeping and Janitorial Workers,37,Building and Grounds Cleaning and Maintenance,False,-0.585,-0.367,-0.983,1,1
+37-1012,"First-Line Supervisors/Managers of Landscaping, Lawn Service, and Groundskeeping Workers",37,Building and Grounds Cleaning and Maintenance,False,-0.555,-0.486,-0.461,2,2
+37-3011,Landscaping and Groundskeeping Workers,37,Building and Grounds Cleaning and Maintenance,False,-1.824,-1.656,-1.702,2,2
+37-3012,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",37,Building and Grounds Cleaning and Maintenance,False,-0.885,-0.934,-0.626,1,1
+39-2011,Animal Trainers,39,Personal Care and Service,False,-0.917,-0.729,-1.03,1,1
+39-2021,Nonfarm Animal Caretakers,39,Personal Care and Service,False,-0.889,-0.528,-1.658,1,1
+39-3092,Costume Attendants,39,Personal Care and Service,False,-0.453,-0.296,-0.331,1,1
+39-4011,Embalmers,39,Personal Care and Service,False,-0.731,-0.657,-0.407,1,1
+39-4031,"Morticians, Undertakers, and Funeral Directors",39,Personal Care and Service,False,-0.19,-0.114,-0.396,1,1
+39-7011,Tour Guides and Escorts,39,Personal Care and Service,False,0.357,0.736,-0.574,2,2
+39-7012,Travel Guides,39,Personal Care and Service,False,0.608,0.553,0.607,1,1
+39-9011,Child Care Workers,39,Personal Care and Service,False,-0.383,-0.167,-0.615,1,1
+39-9031,Fitness Trainers and Aerobics Instructors,39,Personal Care and Service,False,-2.112,-1.257,-3.308,2,2
+39-9032,Recreation Workers,39,Personal Care and Service,False,-0.244,0.097,-0.799,1,1
+41-1011,First-Line Supervisors/Managers of Retail Sales Workers,41,Sales and Related,False,0.019,0.201,-0.503,5,3
+41-1012,First-Line Supervisors/Managers of Non-Retail Sales Workers,41,Sales and Related,False,1.316,1.259,1.27,2,1
+41-2022,Parts Salespersons,41,Sales and Related,False,-0.118,-0.014,-0.44,2,1
+41-3011,Advertising Sales Agents,41,Sales and Related,False,1.163,1.122,1.13,1,1
+41-3021,Insurance Sales Agents,41,Sales and Related,False,1.341,1.427,0.678,1,1
+41-3031,"Securities, Commodities, and Financial Services Sales Agents",41,Sales and Related,False,1.256,1.26,0.773,2,1
+41-3041,Travel Agents,41,Sales and Related,False,1.134,1.278,0.334,2,1
+41-4011,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",41,Sales and Related,False,0.891,0.953,0.675,1,1
+41-4012,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",41,Sales and Related,False,0.822,1.039,0.178,3,2
+41-9011,Demonstrators and Product Promoters,41,Sales and Related,False,0.124,0.334,-0.343,1,1
+41-9012,Models,41,Sales and Related,False,-1.122,-0.503,-1.801,1,1
+41-9021,Real Estate Brokers,41,Sales and Related,False,1.15,1.348,0.454,2,2
+41-9022,Real Estate Sales Agents,41,Sales and Related,False,0.865,0.701,1.148,2,2
+43-1011,First-Line Supervisors/Managers of Office and Administrative Support Workers,43,Office and Administrative Support,False,1.039,1.134,0.626,4,3
+43-3011,Bill and Account Collectors,43,Office and Administrative Support,False,1.272,1.27,0.764,1,1
+43-3031,"Bookkeeping, Accounting, and Auditing Clerks",43,Office and Administrative Support,False,1.04,0.818,0.76,1,1
+43-3051,Payroll and Timekeeping Clerks,43,Office and Administrative Support,False,1.258,1.155,0.782,1,1
+43-3061,Procurement Clerks,43,Office and Administrative Support,False,1.488,1.59,0.724,1,1
+43-3071,Tellers,43,Office and Administrative Support,False,0.473,0.431,-0.057,1,1
+43-4011,Brokerage Clerks,43,Office and Administrative Support,False,1.145,1.026,0.738,1,1
+43-4021,Correspondence Clerks,43,Office and Administrative Support,False,1.15,1.184,0.708,1,1
+43-4041,"Credit Authorizers, Checkers, and Clerks",43,Office and Administrative Support,False,1.44,1.546,0.566,1,1
+43-4051,Customer Service Representatives,43,Office and Administrative Support,False,0.956,1.076,0.415,1,1
+43-4061,"Eligibility Interviewers, Government Programs",43,Office and Administrative Support,False,1.226,1.417,0.313,1,1
+43-4071,File Clerks,43,Office and Administrative Support,False,0.284,0.24,0.537,1,1
+43-4131,Loan Interviewers and Clerks,43,Office and Administrative Support,False,1.364,1.274,1.019,1,1
+43-4141,New Accounts Clerks,43,Office and Administrative Support,False,1.175,1.201,0.384,1,1
+43-4151,Order Clerks,43,Office and Administrative Support,False,0.839,0.761,0.528,1,1
+43-4161,"Human Resources Assistants, Except Payroll and Timekeeping",43,Office and Administrative Support,False,1.353,1.481,0.776,2,1
+43-4171,Receptionists and Information Clerks,43,Office and Administrative Support,False,1.013,1.033,0.457,1,1
+43-5011,Cargo and Freight Agents,43,Office and Administrative Support,False,1.405,1.255,1.238,1,1
+43-5032,"Dispatchers, Except Police, Fire, and Ambulance",43,Office and Administrative Support,False,1.235,1.128,1.069,1,1
+43-5061,"Production, Planning, and Expediting Clerks",43,Office and Administrative Support,False,0.7,0.661,0.619,1,1
+43-6011,Executive Secretaries and Administrative Assistants,43,Office and Administrative Support,False,1.08,1.106,0.655,1,1
+43-6012,Legal Secretaries,43,Office and Administrative Support,False,1.015,1.149,0.481,1,1
+43-6013,Medical Secretaries,43,Office and Administrative Support,False,1.218,1.298,0.394,1,1
+43-6014,"Secretaries, Except Legal, Medical, and Executive",43,Office and Administrative Support,False,1.099,1.254,0.264,1,1
+43-9021,Data Entry Keyers,43,Office and Administrative Support,False,0.311,0.172,0.294,2,2
+43-9022,Word Processors and Typists,43,Office and Administrative Support,False,0.622,0.507,0.526,1,1
+43-9031,Desktop Publishers,43,Office and Administrative Support,False,0.344,-0.065,1.839,1,1
+43-9041,Insurance Claims and Policy Processing Clerks,43,Office and Administrative Support,False,1.24,1.257,0.537,1,1
+43-9061,"Office Clerks, General",43,Office and Administrative Support,False,0.989,0.911,0.624,1,1
+43-9081,Proofreaders and Copy Markers,43,Office and Administrative Support,False,1.288,1.436,0.642,4,3
+43-9111,Statistical Assistants,43,Office and Administrative Support,False,1.39,1.053,1.791,1,1
+45-1011,"First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",45,"Farming, Fishing, and Forestry",False,-0.479,-0.558,-0.261,9,2
+45-2011,Agricultural Inspectors,45,"Farming, Fishing, and Forestry",False,0.17,-0.008,0.507,1,1
+45-2021,Animal Breeders,45,"Farming, Fishing, and Forestry",False,-1.044,-0.941,-1.072,1,1
+45-2091,Agricultural Equipment Operators,45,"Farming, Fishing, and Forestry",False,-1.145,-1.24,-0.855,1,1
+45-2093,"Farmworkers, Farm and Ranch Animals",45,"Farming, Fishing, and Forestry",False,-1.108,-1.089,-0.898,1,1
+45-4011,Forest and Conservation Workers,45,"Farming, Fishing, and Forestry",False,-1.064,-1.0,-0.9,2,2
+47-1011,First-Line Supervisors/Managers of Construction Trades and Extraction Workers,47,Construction and Extraction,False,-0.305,-0.36,-0.012,1,1
+47-2041,Carpet Installers,47,Construction and Extraction,False,-1.565,-1.414,-1.435,1,1
+47-2042,"Floor Layers, Except Carpet, Wood, and Hard Tiles",47,Construction and Extraction,False,-1.301,-1.049,-1.398,1,1
+47-2043,Floor Sanders and Finishers,47,Construction and Extraction,False,-1.749,-1.574,-1.828,1,1
+47-2044,Tile and Marble Setters,47,Construction and Extraction,False,-1.225,-1.196,-0.85,1,1
+47-2051,Cement Masons and Concrete Finishers,47,Construction and Extraction,False,-1.777,-1.678,-1.53,1,1
+47-2053,Terrazzo Workers and Finishers,47,Construction and Extraction,False,-1.776,-1.685,-1.536,1,1
+47-2081,Drywall and Ceiling Tile Installers,47,Construction and Extraction,False,-1.648,-1.496,-1.467,1,1
+47-2121,Glaziers,47,Construction and Extraction,False,-1.389,-1.267,-1.279,1,1
+47-2131,"Insulation Workers, Floor, Ceiling, and Wall",47,Construction and Extraction,False,-1.619,-1.51,-1.406,1,1
+47-2132,"Insulation Workers, Mechanical",47,Construction and Extraction,False,-1.269,-1.08,-1.419,1,1
+47-2141,"Painters, Construction and Maintenance",47,Construction and Extraction,False,-1.588,-1.381,-1.581,1,1
+47-2142,Paperhangers,47,Construction and Extraction,False,-1.728,-1.566,-1.528,1,1
+47-2181,Roofers,47,Construction and Extraction,False,-1.753,-1.553,-1.779,1,1
+47-2221,Structural Iron and Steel Workers,47,Construction and Extraction,False,-1.78,-1.701,-1.474,1,1
+47-2231,Solar Photovoltaic Installers,47,Construction and Extraction,False,-0.944,-1.037,-0.292,2,2
+47-4011,Construction and Building Inspectors,47,Construction and Extraction,False,0.286,0.068,0.972,1,1
+47-4021,Elevator Installers and Repairers,47,Construction and Extraction,False,-0.86,-0.928,-0.348,1,1
+47-4041,Hazardous Materials Removal Workers,47,Construction and Extraction,False,-0.689,-0.744,-0.368,1,1
+47-5013,"Service Unit Operators, Oil, Gas, and Mining",47,Construction and Extraction,False,-0.972,-1.068,-0.758,1,1
+49-1011,"First-Line Supervisors/Managers of Mechanics, Installers, and Repairers",49,"Installation, Maintenance, and Repair",False,-0.021,-0.114,0.06,2,2
+49-2011,"Computer, Automated Teller, and Office Machine Repairers",49,"Installation, Maintenance, and Repair",False,-0.346,-0.454,0.153,1,1
+49-2021,Radio Mechanics,49,"Installation, Maintenance, and Repair",False,-0.634,-0.743,-0.124,1,1
+49-2022,"Telecommunications Equipment Installers and Repairers, Except Line Installers",49,"Installation, Maintenance, and Repair",False,-0.853,-0.939,-0.299,1,1
+49-2091,Avionics Technicians,49,"Installation, Maintenance, and Repair",False,-0.173,-0.264,0.173,2,2
+49-2092,"Electric Motor, Power Tool, and Related Repairers",49,"Installation, Maintenance, and Repair",False,-0.811,-0.98,-0.309,1,1
+49-2093,"Electrical and Electronics Installers and Repairers, Transportation Equipment",49,"Installation, Maintenance, and Repair",False,-0.83,-0.91,-0.384,1,1
+49-2094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",49,"Installation, Maintenance, and Repair",False,-0.463,-0.703,0.246,1,1
+49-2095,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",49,"Installation, Maintenance, and Repair",False,-0.552,-0.672,-0.06,3,2
+49-2096,"Electronic Equipment Installers and Repairers, Motor Vehicles",49,"Installation, Maintenance, and Repair",False,-0.792,-0.87,-0.396,1,1
+49-2097,Electronic Home Entertainment Equipment Installers and Repairers,49,"Installation, Maintenance, and Repair",False,-0.571,-0.73,0.049,1,1
+49-2098,Security and Fire Alarm Systems Installers,49,"Installation, Maintenance, and Repair",False,-0.693,-0.685,-0.454,1,1
+49-3011,Aircraft Mechanics and Service Technicians,49,"Installation, Maintenance, and Repair",False,-0.655,-0.814,-0.154,2,2
+49-3021,Automotive Body and Related Repairers,49,"Installation, Maintenance, and Repair",False,-1.181,-1.199,-0.702,1,1
+49-3022,Automotive Glass Installers and Repairers,49,"Installation, Maintenance, and Repair",False,-1.202,-1.235,-0.66,1,1
+49-3023,Automotive Service Technicians and Mechanics,49,"Installation, Maintenance, and Repair",False,-0.955,-1.031,-0.708,2,2
+49-3031,Bus and Truck Mechanics and Diesel Engine Specialists,49,"Installation, Maintenance, and Repair",False,-1.01,-1.058,-0.76,1,1
+49-3041,Farm Equipment Mechanics,49,"Installation, Maintenance, and Repair",False,-1.207,-1.239,-1.025,1,1
+49-3042,"Mobile Heavy Equipment Mechanics, Except Engines",49,"Installation, Maintenance, and Repair",False,-1.17,-1.259,-0.708,2,2
+49-3043,Rail Car Repairers,49,"Installation, Maintenance, and Repair",False,-1.448,-1.485,-1.048,1,1
+49-3051,Motorboat Mechanics,49,"Installation, Maintenance, and Repair",False,-0.886,-0.938,-0.714,2,2
+49-3052,Motorcycle Mechanics,49,"Installation, Maintenance, and Repair",False,-0.764,-0.666,-1.035,1,1
+49-3053,Outdoor Power Equipment and Other Small Engine Mechanics,49,"Installation, Maintenance, and Repair",False,-0.894,-0.961,-0.631,1,1
+49-3091,Bicycle Repairers,49,"Installation, Maintenance, and Repair",False,-0.923,-0.823,-0.837,1,1
+49-3092,Recreational Vehicle Service Technicians,49,"Installation, Maintenance, and Repair",False,-0.924,-0.869,-0.819,1,1
+49-9012,"Control and Valve Installers and Repairers, Except Mechanical Door",49,"Installation, Maintenance, and Repair",False,-0.761,-0.781,-0.389,1,1
+49-9021,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",49,"Installation, Maintenance, and Repair",False,-0.849,-0.896,-0.552,1,1
+49-9031,Home Appliance Repairers,49,"Installation, Maintenance, and Repair",False,-0.97,-0.928,-0.897,1,1
+49-9041,Industrial Machinery Mechanics,49,"Installation, Maintenance, and Repair",False,-1.133,-1.217,-0.847,1,1
+49-9043,"Maintenance Workers, Machinery",49,"Installation, Maintenance, and Repair",False,-0.974,-1.015,-0.724,1,1
+49-9044,Millwrights,49,"Installation, Maintenance, and Repair",False,-1.266,-1.284,-0.946,1,1
+49-9045,"Refractory Materials Repairers, Except Brickmasons",49,"Installation, Maintenance, and Repair",False,-1.237,-1.209,-1.134,1,1
+49-9052,Telecommunications Line Installers and Repairers,49,"Installation, Maintenance, and Repair",False,-1.084,-1.054,-0.819,1,1
+49-9062,Medical Equipment Repairers,49,"Installation, Maintenance, and Repair",False,-0.277,-0.537,0.479,1,1
+49-9071,"Maintenance and Repair Workers, General",49,"Installation, Maintenance, and Repair",False,-1.014,-1.07,-0.609,1,1
+49-9081,Wind Turbine Service Technicians,49,"Installation, Maintenance, and Repair",False,-0.971,-0.984,-0.576,2,2
+49-9092,Commercial Divers,49,"Installation, Maintenance, and Repair",False,-1.103,-1.082,-0.783,1,1
+49-9095,Manufactured Building and Mobile Home Installers,49,"Installation, Maintenance, and Repair",False,-1.414,-1.44,-0.914,1,1
+49-9099,"Installation, Maintenance, and Repair Workers, All Other",49,"Installation, Maintenance, and Repair",False,-0.59,-0.793,-0.146,1,1
+51-1011,First-Line Supervisors/Managers of Production and Operating Workers,51,Production,False,-0.085,-0.037,-0.232,1,1
+51-2011,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",51,Production,False,-0.868,-0.927,-0.521,1,1
+51-2031,Engine and Other Machine Assemblers,51,Production,False,-0.956,-1.045,-0.571,1,1
+51-3011,Bakers,51,Production,False,-0.385,-0.474,-0.054,1,1
+51-3021,Butchers and Meat Cutters,51,Production,False,-0.971,-0.977,-0.916,1,1
+51-3023,Slaughterers and Meat Packers,51,Production,False,-1.835,-1.543,-2.529,1,1
+51-3092,Food Batchmakers,51,Production,False,-0.379,-0.427,-0.649,1,1
+51-4121,"Welders, Cutters, Solderers, and Brazers",51,Production,False,-1.198,-1.298,-0.697,1,1
+51-5111,Prepress Technicians and Workers,51,Production,False,0.411,-0.001,1.556,1,1
+51-5112,Printing Press Operators,51,Production,False,-0.709,-0.844,-0.224,1,1
+51-6092,Fabric and Apparel Patternmakers,51,Production,False,-0.083,-0.333,0.842,1,1
+51-7011,Cabinetmakers and Bench Carpenters,51,Production,False,-1.327,-1.327,-1.027,1,1
+51-7021,Furniture Finishers,51,Production,False,-1.198,-1.238,-0.587,1,1
+51-7031,"Model Makers, Wood",51,Production,False,-0.728,-0.802,-0.484,1,1
+51-7032,"Patternmakers, Wood",51,Production,False,-1.058,-1.208,-0.627,1,1
+51-7041,"Sawing Machine Setters, Operators, and Tenders, Wood",51,Production,False,-1.165,-1.265,-0.822,1,1
+51-7042,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",51,Production,False,-1.13,-1.204,-0.952,1,1
+51-8013,Power Plant Operators,51,Production,False,-0.348,-0.441,-0.181,1,1
+51-8031,Water and Liquid Waste Treatment Plant and System Operators,51,Production,False,-0.445,-0.559,-0.198,1,1
+51-8092,Gas Plant Operators,51,Production,False,-0.298,-0.574,0.128,1,1
+51-9012,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",51,Production,False,-0.938,-1.048,-0.584,1,1
+51-9061,"Inspectors, Testers, Sorters, Samplers, and Weighers",51,Production,False,-0.029,-0.156,0.112,1,1
+51-9071,Jewelers and Precious Stone and Metal Workers,51,Production,False,-0.156,-0.637,1.035,1,1
+51-9081,Dental Laboratory Technicians,51,Production,False,0.001,-0.437,1.043,1,1
+51-9082,Medical Appliance Technicians,51,Production,False,-0.495,-0.548,-0.32,1,1
+51-9083,Ophthalmic Laboratory Technicians,51,Production,False,-0.597,-0.918,0.086,1,1
+51-9141,Semiconductor Processors,51,Production,False,-0.637,-0.713,-0.281,2,2
+51-9194,Etchers and Engravers,51,Production,False,-0.64,-0.775,-0.138,1,1
+53-2011,"Airline Pilots, Copilots, and Flight Engineers",53,Transportation and Material Moving,False,-0.207,-0.758,1.009,1,1
+53-2012,Commercial Pilots,53,Transportation and Material Moving,False,-0.182,-0.644,0.989,1,1
+53-2021,Air Traffic Controllers,53,Transportation and Material Moving,False,1.153,0.648,1.893,1,1
+53-2022,Airfield Operations Specialists,53,Transportation and Material Moving,False,0.485,0.246,1.11,1,1
+53-2031,Flight Attendants,53,Transportation and Material Moving,False,-0.762,-0.365,-1.864,1,1
+53-3011,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",53,Transportation and Material Moving,False,-0.83,-0.844,-0.606,1,1
+53-5021,"Captains, Mates, and Pilots of Water Vessels",53,Transportation and Material Moving,False,-0.428,-0.793,0.672,1,1
+53-5022,Motorboat Operators,53,Transportation and Material Moving,False,-0.887,-1.177,0.036,1,1
+53-5031,Ship Engineers,53,Transportation and Material Moving,False,-0.526,-0.567,-0.482,1,1
+53-6041,Traffic Technicians,53,Transportation and Material Moving,False,0.4,0.129,1.031,2,2
